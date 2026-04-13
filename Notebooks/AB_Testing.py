@@ -4,7 +4,7 @@ import os
 import matplotlib.pyplot as plt
 from statsmodels.stats.proportion import proportions_ztest
 
-# 2. Load the actual file (Replace with your real filename)
+# 2. Load the actual file 
 import pandas as pd
 df = pd.read_csv(r"C:\Users\user\Downloads\project_folder\AB_testing_analysis\Data\marketing_AB.csv")
 df.head()
